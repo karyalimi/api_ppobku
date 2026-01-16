@@ -1,0 +1,26 @@
+## request
+curl --location --request POST 'https://apippob-karyalimi8597-b3kl01nx.leapcell.dev/api/getPrabayar'
+
+  ## response
+  {
+    "data": [
+        {
+            "product_name": "DANA 75.000",
+            "category": "E-Money",
+            "brand": "DANA",
+            "price": 78797,
+            "buyer_sku_code": "dna75",
+            "multi": true
+        },
+        {
+            "product_name": "DANA 80.000",
+            "category": "E-Money",
+            "brand": "DANA",
+            "price": 84047,
+            "buyer_sku_code": "dna80",
+            "multi": true
+        },
+      ..........
+],
+    "status": "success"
+}
