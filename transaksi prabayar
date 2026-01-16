@@ -1,0 +1,6 @@
+## request
+curl --location 'https://apippob-karyalimi8597-b3kl01nx.leapcell.dev/api/trxPrabayar' \
+--form 'api_key="{api key kamu}"' \
+--form 'ref_id="12345 (id unik trx)"' \
+--form 'buyer_sku_code="xv5-1 (code trx)"' \
+--form 'customer_no="08123xxx (nomor/ID tujuan)"'
